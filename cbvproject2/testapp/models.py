@@ -6,3 +6,4 @@ class Book(models.Model):
     author=models.CharField(max_length=64)
     pages=models.PositiveIntegerField()
     price=models.FloatField(max_length=64)
+    subject=models.CharField(max_length=64)
